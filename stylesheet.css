@@ -1,0 +1,122 @@
+h1,h2,h3,
+p,a,
+ul,li {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color:initial;
+}
+
+html {
+  font-size: 62.5%;
+  color: #333;
+}
+.w980 {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.flex_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+section {
+  padding:100px 30px 100px;
+}
+h2 {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+/* -------------------
+** header
+** ------------------- */
+header {
+  background: #fff;
+  top:0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+.h-logo {
+  font-size: 4rem;
+}
+header ul {
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: 300px;
+  margin: auto 0;
+}
+header li {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+/* -------------------
+** hero
+** ------------------- */
+.hero {
+  padding:0;
+  background: skyblue;
+  width: 100%;
+  padding-top: 50%;
+  color: #fff;
+  position: relative;
+}
+h1 {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-ransform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: #fff;
+}
+/* -------------------
+** about
+** ------------------- */
+.about {
+  background: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+}
+/* -------------------
+** works
+** ------------------- */
+.works {
+  background: skyblue;
+}
+/* -------------------
+** contact
+** ------------------- */
+.contact {
+  background: #fff;
+}
+.formbox {
+  width: 450px;
+  margin: 0 auto;
+}
+input,textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* -------------------
+** footer
+** ------------------- */
+footer {
+  background: skyblue;
+  font-size: 1.2rem;
+  padding: 10px;
+  text-align: center;
+}
